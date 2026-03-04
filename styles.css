@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: #9790a4;
+}
+
+#picture1 {
+    background-image: url(images/tomorin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -250px;
+}
+.title {
+    background-color: rgba(240, 248, 255, 0.4);
+    border: 20px solid rgba(255, 255, 255, 0.4);
+    padding: 5px;
+    padding-bottom: 75px;
+    padding-top: 50px;
+    color: #aa98ca;
+    text-align: center;
+    font-size: large;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+.title p {
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    border-left: 50px;
+    color: #c5bdd3;
+    text-shadow: 2px 1px 1px #000000;
+}
+
+.title h1 {
+    letter-spacing: 10px;
+}
+
+.image-container, .alt-container {
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.image-container {
+    outline: solid #9790a4;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 1%;
+}
+
+.image-container img, .alt-container img {
+    display: inline;
+    padding: 0;
+}
+
+.image-container #tomo2 {
+    width: 230px;
+}
+
+.image-container p, .alt-container p {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    color: #9790a4;
+}
+.body-text {
+    padding-top: 20px;
+    background-color: rgb(230, 228, 230);
+}
+
+.divider {
+    background-color: rgb(223, 207, 212);
+    height: 3px;
+}
+
+.textbox {
+    width: 500px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.paragraph.coherent {
+    height: auto;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: space-evenly;
+}
+
+.paragraph.mygo {
+    flex-direction: column;
+}
+
+.end {
+    background-color: #b8b0c7;
+    display: flex;
+}
+
+.end .cute {
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
